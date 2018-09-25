@@ -12,8 +12,10 @@ class Login extends Component {
     render() {
         return (
             <div id="login_screen">
-                <h1>Home Screen</h1>
+                <h1>Login Screen</h1>
             </div>
         );
     }
 }
+
+export default Login;
