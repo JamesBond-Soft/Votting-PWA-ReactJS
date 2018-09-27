@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './index.scss';
 
-class Home extends Component {
+class header extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -11,11 +11,11 @@ class Home extends Component {
 
     render() {
         return (
-            <div id="home_screen">
-                <h1> Welcome to Voting system!</h1>
+            <div id="header_component">
+                <h1>Header</h1>
             </div>
         );
     }
 }
 
-export default Home;
+export default Login;
